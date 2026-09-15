@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 3,
-  "generatedAt": "2026-09-15T06:49:22.108220+00:00",
+  "schemaVersion": 4,
+  "generatedAt": "2026-09-15T06:53:44.232290+00:00",
   "leaflets": [
     {
       "id": "netto-2026-09-14-2026-09-19",
@@ -224,6 +224,11 @@
       "lidl"
     ],
     "imageReader": [
+      "netto",
+      "aldi",
+      "lidl"
+    ],
+    "productCatalog": [
       "netto",
       "aldi",
       "lidl"
