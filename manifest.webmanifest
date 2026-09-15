@@ -1,0 +1,9 @@
+{
+  "name": "Moje Gazetki",
+  "short_name": "Gazetki",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f3f4f6",
+  "theme_color": "#111827",
+  "description": "Własny panel aktualnych i nadchodzących gazetek promocyjnych."
+}
