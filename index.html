@@ -11,84 +11,39 @@
 <body>
   <header class="topbar">
     <div>
-      <p class="eyebrow">v0.1</p>
+      <p class="eyebrow">v0.2</p>
       <h1>Moje Gazetki</h1>
-      <p class="subtitle">Własny panel gazetek, sklepów i reguł wyszukiwania.</p>
+      <p class="subtitle">Aktualne i nadchodzące gazetki z oficjalnych stron sklepów.</p>
     </div>
     <button id="settingsBtn" class="secondary">Ustawienia</button>
   </header>
 
   <main class="layout">
     <section class="panel controls">
-      <label>
-        Szukaj produktu lub gazetki
-        <input id="searchInput" type="search" placeholder="np. kawa, masło, Lidl" />
+      <label>Szukaj sklepu lub gazetki
+        <input id="searchInput" type="search" placeholder="np. Biedronka, Action, oferta tygodnia" />
       </label>
-
       <div class="grid-3">
-        <label>
-          Widok
-          <select id="statusFilter">
-            <option value="all">Wszystkie</option>
-            <option value="current">Aktualne</option>
-            <option value="upcoming">Nadchodzące</option>
-          </select>
-        </label>
-        <label>
-          Sortowanie
-          <select id="sortSelect">
-            <option value="priority">Moja kolejność sklepów</option>
-            <option value="dateAsc">Najbliższe daty</option>
-            <option value="dateDesc">Najpóźniejsze daty</option>
-            <option value="name">Nazwa sklepu A-Z</option>
-          </select>
-        </label>
-        <label>
-          Źródło
-          <select id="sourceSelect">
-            <option value="all">Wszystkie źródła</option>
-            <option value="demo">Demo v0.1</option>
-          </select>
-        </label>
+        <label>Widok<select id="statusFilter"><option value="all">Wszystkie</option><option value="current">Aktualne</option><option value="upcoming">Nadchodzące</option></select></label>
+        <label>Sortowanie<select id="sortSelect"><option value="priority">Moja kolejność sklepów</option><option value="dateAsc">Najbliższe daty</option><option value="dateDesc">Najpóźniejsze daty</option><option value="name">Nazwa sklepu A-Z</option></select></label>
+        <label>Źródło<select id="sourceSelect"><option value="all">Wszystkie źródła</option><option value="official">Oficjalne strony sklepów</option></select></label>
       </div>
-
-      <div>
-        <h2>Moje sklepy</h2>
-        <div id="storesFilter" class="chips"></div>
-      </div>
+      <div><h2>Moje sklepy</h2><div id="storesFilter" class="chips"></div></div>
     </section>
 
     <section class="panel">
-      <div class="section-title">
-        <div>
-          <h2>Gazetki</h2>
-          <p id="resultInfo" class="muted"></p>
-        </div>
-        <button id="refreshBtn">Odśwież</button>
-      </div>
+      <div class="section-title"><div><h2>Gazetki</h2><p id="resultInfo" class="muted"></p></div><button id="refreshBtn">Odśwież</button></div>
       <div id="leaflets" class="cards"></div>
     </section>
   </main>
 
-  <dialog id="settingsDialog">
-    <form method="dialog" class="settings-form">
-      <div class="section-title">
-        <h2>Ustawienia</h2>
-        <button value="cancel" class="secondary">Zamknij</button>
-      </div>
-
-      <p class="muted">Zaznacz sklepy i ustaw ich kolejność. Ustawienia zapisują się lokalnie w przeglądarce.</p>
-      <div id="settingsStores"></div>
-
-      <label class="toggle-row">
-        <input id="notifyToggle" type="checkbox" />
-        <span>Chcę w przyszłości otrzymywać powiadomienia o nowych gazetkach i obserwowanych produktach</span>
-      </label>
-
-      <button id="saveSettingsBtn" value="default">Zapisz ustawienia</button>
-    </form>
-  </dialog>
-
+  <dialog id="settingsDialog"><form method="dialog" class="settings-form">
+    <div class="section-title"><h2>Ustawienia</h2><button value="cancel" class="secondary">Zamknij</button></div>
+    <p class="muted">Zaznacz sklepy i ustaw ich kolejność. Ustawienia zapisują się lokalnie w przeglądarce.</p>
+    <div id="settingsStores"></div>
+    <label class="toggle-row"><input id="notifyToggle" type="checkbox" /><span>Powiadomienia o nowych gazetkach i obserwowanych produktach (przygotowanie pod v0.3/v0.4)</span></label>
+    <button id="saveSettingsBtn" value="default">Zapisz ustawienia</button>
+  </form></dialog>
   <script src="app.js"></script>
 </body>
 </html>
