@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-15T06:30:00Z",
+  "products": [
+    {"id":"demo-paper-biedronka","name":"Papier toaletowy 8 rolek","category":"Papier i higiena","storeId":"biedronka","store":"Biedronka","price":9.99,"regularPrice":13.99,"unit":"opak.","unitPrice":1.25,"unitLabel":"rolka","promotion":true,"validFrom":"2026-09-14","validTo":"2026-09-19","leafletId":"biedronka-current","page":1,"demo":true},
+    {"id":"demo-paper-lidl","name":"Papier toaletowy 16 rolek","category":"Papier i higiena","storeId":"lidl","store":"Lidl","price":17.99,"regularPrice":22.99,"unit":"opak.","unitPrice":1.12,"unitLabel":"rolka","promotion":true,"validFrom":"2026-09-14","validTo":"2026-09-20","leafletId":"lidl","page":1,"demo":true},
+    {"id":"demo-towel-kaufland","name":"Ręcznik papierowy 2 rolki","category":"Papier i higiena","storeId":"kaufland","store":"Kaufland","price":6.49,"regularPrice":8.49,"unit":"opak.","unitPrice":3.25,"unitLabel":"rolka","promotion":true,"validFrom":"2026-09-10","validTo":"2026-09-16","leafletId":"kaufland","page":1,"demo":true},
+    {"id":"demo-milk-netto","name":"Mleko UHT 1 l","category":"Nabiał","storeId":"netto","store":"Netto","price":2.99,"regularPrice":3.79,"unit":"szt.","unitPrice":2.99,"unitLabel":"l","promotion":true,"validFrom":"2026-09-14","validTo":"2026-09-19","leafletId":"netto-current","page":1,"demo":true},
+    {"id":"demo-butter-biedronka","name":"Masło ekstra 200 g","category":"Nabiał","storeId":"biedronka","store":"Biedronka","price":5.99,"regularPrice":7.49,"unit":"szt.","unitPrice":29.95,"unitLabel":"kg","promotion":true,"validFrom":"2026-09-14","validTo":"2026-09-19","leafletId":"biedronka-current","page":1,"demo":true},
+    {"id":"demo-coffee-lidl","name":"Kawa ziarnista 1 kg","category":"Kawa i herbata","storeId":"lidl","store":"Lidl","price":39.99,"regularPrice":49.99,"unit":"szt.","unitPrice":39.99,"unitLabel":"kg","promotion":true,"validFrom":"2026-09-14","validTo":"2026-09-20","leafletId":"lidl","page":1,"demo":true}
+  ]
+}
