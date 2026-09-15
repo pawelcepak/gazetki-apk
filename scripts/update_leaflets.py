@@ -3,7 +3,7 @@ import html as htmlmod,json,re,urllib.request
 from datetime import datetime,date,timezone
 from pathlib import Path
 from urllib.parse import urljoin
-OUT=Path('data/leaflets.json')
+LEAFLETS_OUT=Path('data/leaflets.json'); PRODUCTS_OUT=Path('data/products.json')
 HEADERS={'User-Agent':'Mozilla/5.0 (Gazetki PWA updater; +https://github.com/pawelcepak/gazetki-apk)'}
 MG='https://mojagazetka.com/'
 KNOWN={'netto':'https://mojagazetka.com/gazetki-promocyjne/netto/netto-14-09-26-19-09-26-owkbc/1','aldi':'https://mojagazetka.com/gazetki-promocyjne/aldi/aldi-14-09-26-19-09-26-hjajv/1','lidl':'https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-14-09-26-16-09-26-dsqqg/1'}
@@ -28,9 +28,7 @@ def extract_pages(raw,store,source):
   if u not in seen:seen.append(u)
  def num(u):
   m=re.search(r'image(\d+)\.webp',u,re.I);return int(m.group(1)) if m else 9999
- pages=sorted(seen,key=num)
- # image00 is a thumbnail/cover used by recommendation cards, not a reader page.
- return [u for u in pages if not re.search(r'/image00\.webp$',u,re.I)]
+ return [u for u in sorted(seen,key=num) if not re.search(r'/image00\.webp$',u,re.I)]
 def discover(store):
  try:raw=clean(get(MG))
  except:return KNOWN[store]
@@ -47,17 +45,49 @@ def discover(store):
    if best is None or score>best[0]:best=(score,u)
   except:pass
  return best[1] if best and best[0]>=4 else KNOWN[store]
+def text(raw):
+ s=re.sub(r'<script[\s\S]*?</script>|<style[\s\S]*?</style>',' ',raw,flags=re.I);s=re.sub(r'<[^>]+>','\n',s);return re.sub(r'[ \t]+',' ',htmlmod.unescape(s)).replace('\r','')
+def price(s):
+ m=re.search(r'(\d{1,4}[,.]\d{2})\s*zł',s,re.I);return float(m.group(1).replace(',','.')) if m else None
+def products_from_leaflet(raw,leaflet):
+ t=text(raw);anchor='Wybrane promocje w gazetce';end='Kategorie produktów';block=t.split(anchor,1)[1] if anchor in t else ''
+ if end in block:block=block.split(end,1)[0]
+ lines=[x.strip(' *\t') for x in block.split('\n') if x.strip()]
+ skip=('Wybraliśmy produkty','Pokaż','Image:','chevron')
+ chunks=[];cur=[]
+ for line in lines:
+  if any(line.startswith(x) for x in skip):continue
+  if cur and not re.match(r'^(Cena|Opakowanie|Cena promocyjna|[0-9]+%|Aktywuj|Przy zakupie|Taniej|SUPERCENA|[0-9]+\+[0-9]+)',line,re.I):chunks.append(cur);cur=[line]
+  else:cur.append(line)
+ if cur:chunks.append(cur)
+ out=[]
+ for i,c in enumerate(chunks):
+  name=c[0].strip();detail=' '.join(c[1:]);prices=[float(x.replace(',','.')) for x in re.findall(r'(\d{1,4}[,.]\d{2})\s*zł',detail,re.I)]
+  if not prices:continue
+  promo_match=re.search(r'Cena promocyjna:\s*(\d{1,4}[,.]\d{2})\s*zł',detail,re.I)
+  promo=float(promo_match.group(1).replace(',','.')) if promo_match else None
+  final=promo if promo is not None else prices[-1];regular=prices[0] if len(prices)>1 and prices[0]>=final else None
+  pack=re.search(r'Opakowanie:\s*([^C]+?)(?=Cena|$)',detail,re.I);package=pack.group(1).strip() if pack else ''
+  page=1
+  # Search all rendered page sections for the product name; if not exposed as text, page 1 remains a safe reader entry.
+  m=re.search(re.escape(name)+r'[\s\S]{0,800}?stronie\s+(\d+)',t,re.I)
+  if m:page=int(m.group(1))
+  out.append({'id':f"{leaflet['storeId']}-{leaflet['from']}-{i}",'name':name,'category':'Promocje z gazetki','storeId':leaflet['storeId'],'store':leaflet['store'],'price':final,'regularPrice':regular,'package':package,'promotion':bool(promo is not None or re.search(r'TANIEJ|GRATIS|kupon|przy zakupie|SUPERCENA',detail,re.I)),'conditions':detail[:500],'validFrom':leaflet['from'],'validTo':leaflet['to'],'leafletId':leaflet['id'],'page':page,'source':'mojagazetka','sourcePage':leaflet['sourcePage']})
+ return out
 def adapter(store):
  source=discover(store);raw=clean(get(source));pages=extract_pages(raw,store,source);dr=dates_from_slug(source)
  if not dr:raise RuntimeError('brak dat w adresie gazetki')
  if len(pages)<2:raise RuntimeError(f'znaleziono tylko {len(pages)} stron')
- a,b=dr
- return {'id':f'{store}-{a}-{b}','storeId':store,'store':NAMES[store],'title':TITLES[store],'from':a,'to':b,'source':'mojagazetka','sourcePage':source,'externalUrl':OFFICIAL[store],'reader':'images','pageCount':len(pages),'pages':pages}
+ a,b=dr;leaf={'id':f'{store}-{a}-{b}','storeId':store,'store':NAMES[store],'title':TITLES[store],'from':a,'to':b,'source':'mojagazetka','sourcePage':source,'externalUrl':OFFICIAL[store],'reader':'images','pageCount':len(pages),'pages':pages}
+ return leaf,products_from_leaflet(raw,leaf)
 def main():
- items=[];errors=[]
+ items=[];products=[];errors=[]
  for store in ('netto','aldi','lidl'):
-  try:items.append(adapter(store))
+  try:
+   leaf,prods=adapter(store);items.append(leaf);products.extend(prods)
   except Exception as e:errors.append(f'{store}: {type(e).__name__}: {e}')
- payload={'schemaVersion':3,'generatedAt':datetime.now(timezone.utc).isoformat(),'leaflets':items,'sourceStatus':{'automatic':['netto','aldi','lidl'],'imageReader':[x['storeId'] for x in items if x.get('reader')=='images'],'errors':errors}}
- OUT.parent.mkdir(parents=True,exist_ok=True);OUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');print(f'Wrote {len(items)} leaflets; pages={sum(len(x.get("pages",[])) for x in items)}; errors={len(errors)}')
+ now=datetime.now(timezone.utc).isoformat();payload={'schemaVersion':4,'generatedAt':now,'leaflets':items,'sourceStatus':{'automatic':['netto','aldi','lidl'],'imageReader':[x['storeId'] for x in items],'productCatalog':[x for x in ('netto','aldi','lidl') if any(p['storeId']==x for p in products)],'errors':errors}}
+ LEAFLETS_OUT.parent.mkdir(parents=True,exist_ok=True);LEAFLETS_OUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+ PRODUCTS_OUT.write_text(json.dumps({'schemaVersion':2,'generatedAt':now,'demo':False,'products':products},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+ print(f'Wrote {len(items)} leaflets; pages={sum(len(x.get("pages",[])) for x in items)}; products={len(products)}; errors={len(errors)}')
 if __name__=='__main__':main()
