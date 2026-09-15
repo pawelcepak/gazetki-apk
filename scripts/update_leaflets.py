@@ -1,58 +1,69 @@
 #!/usr/bin/env python3
 import html as htmlmod,json,re,urllib.request
-from datetime import datetime,timezone
+from datetime import datetime,date,timezone
 from pathlib import Path
+from urllib.parse import urljoin
 OUT=Path('data/leaflets.json')
 HEADERS={'User-Agent':'Mozilla/5.0 (Gazetki PWA updater; +https://github.com/pawelcepak/gazetki-apk)'}
-BIEDRONKA='https://www.biedronka.pl/pl/artykuly-przemyslowe'; NETTO='https://netto.pl/gazetka-netto/'
+MG='https://mojagazetka.com/'
+KNOWN={
+ 'netto':'https://mojagazetka.com/gazetki-promocyjne/netto/netto-14-09-26-19-09-26-owkbc/1',
+ 'aldi':'https://mojagazetka.com/gazetki-promocyjne/aldi/aldi-14-09-26-19-09-26-hjajv/1',
+ 'lidl':'https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-14-09-26-16-09-26-dsqqg/1'
+}
+NAMES={'netto':'Netto','aldi':'ALDI','lidl':'Lidl'}
+TITLES={'netto':'Gazetka spożywcza','aldi':'Wybieram ALDI','lidl':'Od poniedziałku'}
+OFFICIAL={'netto':'https://netto.pl/gazetka-netto/','aldi':'https://www.aldi.pl/informacje-dla-klienta/nasze-gazetki.html','lidl':'https://www.lidl.pl/c/gazetki-online/s10008614'}
 def get(url):
  req=urllib.request.Request(url,headers=HEADERS)
- with urllib.request.urlopen(req,timeout=25) as r:return r.read().decode('utf-8','ignore')
-def iso(d):
- day,month,year=map(int,d.split('.'));return f'{year:04d}-{month:02d}-{day:02d}'
-def biedronka():
- raw=get(BIEDRONKA); text=re.sub(r'\s+',' ',re.sub(r'<[^>]+>',' ',raw)); ranges=[]
- for a,b in re.findall(r'(\d{2}\.\d{2})\s*-\s*(\d{2}\.\d{2}\.\d{4})',text):
-  try:r=(iso(a+'.'+b[-4:]),iso(b))
-  except:continue
-  if r not in ranges:ranges.append(r)
- return [{'id':f'biedronka-{a}-{b}','storeId':'biedronka','store':'Biedronka','title':'Okazje tygodnia','from':a,'to':b,'source':'official','externalUrl':'https://www.biedronka.pl/pl/gazetki','reader':'external'} for a,b in ranges[:12]]
-def tjek_page(raw,n):
- raw=htmlmod.unescape(raw).replace('\\u0026','&').replace('\\/','/')
- urls=re.findall(r'https://image-transformer-api\.tjek\.com/[^"\'<> ]+',raw)
+ with urllib.request.urlopen(req,timeout=30) as r:return r.read().decode('utf-8','ignore')
+def clean(raw):return htmlmod.unescape(raw).replace('\\/','/').replace('\\u0026','&')
+def dates_from_slug(url):
+ m=re.search(r'-(\d{2})-(\d{2})-(\d{2})-(\d{2})-(\d{2})-(\d{2})-',url)
+ if not m:return None
+ d1,m1,y1,d2,m2,y2=map(int,m.groups());return f'20{y1:02d}-{m1:02d}-{d1:02d}',f'20{y2:02d}-{m2:02d}-{d2:02d}'
+def discover(store):
+ try:raw=clean(get(MG))
+ except:return KNOWN[store]
+ urls=[]
+ for h in re.findall(r'href=["\']([^"\']+)["\']',raw,re.I):
+  if f'/gazetki-promocyjne/{store}/' not in h.lower():continue
+  u=urljoin(MG,h);dr=dates_from_slug(u)
+  if not dr:continue
+  a,b=dr
+  if a<=date.today().isoformat()<=b:urls.append((a,b,u))
+ if not urls:return KNOWN[store]
+ # Prefer the broadest currently valid main weekly leaflet; detailed validation below.
+ urls.sort(key=lambda x:(x[1],x[0]),reverse=True)
+ best=None
+ for a,b,u in urls[:8]:
+  try:
+   raw=clean(get(u));pages=extract_pages(raw)
+   score=len(pages)
+   if best is None or score>best[0]:best=(score,u)
+  except:pass
+ return best[1] if best and best[0]>=4 else KNOWN[store]
+def extract_pages(raw):
+ urls=re.findall(r'https://app\.moja-e-gazetka\.pl/[^"\'<> ]+/image\d+\.webp',raw,re.I)
+ seen=[]
  for u in urls:
-  if re.search(r'(?:%2F|/)p-'+str(n)+r'\.webp',u,re.I): return u
- return None
-def netto_pages(leaflet_id,max_pages=40):
- pages=[]; misses=0
- for n in range(1,max_pages+1):
-  try:raw=get(f'{NETTO}?leafletid={leaflet_id}&page={n}')
-  except Exception:break
-  u=tjek_page(raw,n)
-  if u: pages.append(u);misses=0
-  else:
-   misses+=1
-   if n>1 and misses>=2:break
- return pages
-def netto():
- raw=get(NETTO); ids=[]
- for x in re.findall(r'leafletid(?:=|%3D)([A-Za-z0-9_-]+)',raw):
-  if x not in ids:ids.append(x)
- text=re.sub(r'\s+',' ',re.sub(r'<[^>]+>',' ',raw)); ranges=[]
- for a,b in re.findall(r'Oferty od:\s*(\d{2}-\d{2}-\d{4})\s*do\s*(\d{2}-\d{2}-\d{4})',text,re.I):
-  cv=lambda s:datetime.strptime(s,'%d-%m-%Y').strftime('%Y-%m-%d');r=(cv(a),cv(b))
-  if r not in ranges:ranges.append(r)
- if not ranges:ranges=[(datetime.now().strftime('%Y-%m-%d'),datetime.now().strftime('%Y-%m-%d'))]
- out=[]
- for i,(a,b) in enumerate(ranges[:4]):
-  lid=ids[i] if i<len(ids) else None; url=f'{NETTO}?leafletid={lid}&page=1' if lid else NETTO; pages=netto_pages(lid) if lid else []
-  out.append({'id':f'netto-{lid or i}','storeId':'netto','store':'Netto','title':'Gazetka promocyjna','from':a,'to':b,'source':'official','externalUrl':url,'reader':'images' if pages else 'iframe-paged','leafletId':lid,'pages':pages})
- return out
+  u=u.replace('&amp;','&')
+  if u not in seen:seen.append(u)
+ def num(u):
+  m=re.search(r'image(\d+)\.webp',u,re.I);return int(m.group(1)) if m else 9999
+ return sorted(seen,key=num)
+def adapter(store):
+ source=discover(store);raw=clean(get(source));pages=extract_pages(raw);dr=dates_from_slug(source)
+ if not dr:raise RuntimeError('brak dat w adresie gazetki')
+ if len(pages)<2:raise RuntimeError(f'znaleziono tylko {len(pages)} stron')
+ a,b=dr
+ return {'id':f'{store}-{a}-{b}','storeId':store,'store':NAMES[store],'title':TITLES[store],'from':a,'to':b,'source':'mojagazetka','sourcePage':source,'externalUrl':OFFICIAL[store],'reader':'images','pageCount':len(pages),'pages':pages}
 def main():
  items=[];errors=[]
- for name,fn in [('biedronka',biedronka),('netto',netto)]:
-  try:items.extend(fn())
-  except Exception as e:errors.append(f'{name}: {type(e).__name__}: {e}')
- payload={'schemaVersion':2,'generatedAt':datetime.now(timezone.utc).isoformat(),'leaflets':items,'sourceStatus':{'automatic':['biedronka','netto'],'imageReader':['netto'],'plannedImageReader':['biedronka','lidl'],'errors':errors}}
- OUT.parent.mkdir(parents=True,exist_ok=True);OUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');print(f'Wrote {len(items)} leaflets; image pages={sum(len(x.get("pages",[])) for x in items)}; errors={len(errors)}')
+ for store in ('netto','aldi','lidl'):
+  try:items.append(adapter(store))
+  except Exception as e:errors.append(f'{store}: {type(e).__name__}: {e}')
+ payload={'schemaVersion':3,'generatedAt':datetime.now(timezone.utc).isoformat(),'leaflets':items,'sourceStatus':{'automatic':['netto','aldi','lidl'],'imageReader':['netto','aldi','lidl'],'errors':errors}}
+ OUT.parent.mkdir(parents=True,exist_ok=True);OUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+ print(f'Wrote {len(items)} leaflets; pages={sum(len(x.get("pages",[])) for x in items)}; errors={len(errors)}')
 if __name__=='__main__':main()
