@@ -1,6 +1,6 @@
 {
   "schemaVersion": 5,
-  "generatedAt": "2026-09-15T08:44:58.946813+00:00",
+  "generatedAt": "2026-09-15T11:51:08.699617+00:00",
   "leaflets": [
     {
       "id": "netto-2026-09-14-2026-09-19",
@@ -233,7 +233,7 @@
       "aldi",
       "lidl"
     ],
-    "pageSearch": "unavailable",
+    "pageSearch": "ocr",
     "errors": []
   }
 }
