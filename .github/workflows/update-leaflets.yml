@@ -10,12 +10,17 @@ on:
     - cron: '17 */6 * * *'
 permissions:
   contents: write
+concurrency:
+  group: leaflet-data-main
+  cancel-in-progress: false
 jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -26,13 +31,16 @@ jobs:
           python -m json.tool data/leaflets.json >/dev/null
           python -m json.tool data/products.json >/dev/null
           python - <<'PY'
-          import json
+          import json,re
           l=json.load(open('data/leaflets.json'))
           p=json.load(open('data/products.json'))
+          assert len(l.get('leaflets',[])) == 3, 'Expected Netto, ALDI and Lidl'
           assert all(x.get('reader')=='images' and x.get('pages') for x in l['leaflets'])
           assert p.get('demo') is False
-          assert len(p.get('products',[]))>0, 'No products extracted'
-          print('leaflets',len(l['leaflets']),'products',len(p['products']))
+          products=p.get('products',[])
+          assert products, 'No products extracted'
+          assert not any(re.fullmatch(r'\d{1,4}[,.]\d{2}\s*zł',x.get('name',''),re.I) for x in products), 'Price parsed as product name'
+          print('leaflets',len(l['leaflets']),'products',len(products))
           PY
       - name: Commit changed data
         run: |
@@ -44,4 +52,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/leaflets.json data/products.json
           git commit -m "data: refresh leaflets and product offers"
-          git push
+          # Another Pages/UI commit may land while this job is scraping. Rebase
+          # the generated-data commit instead of failing with a non-fast-forward.
+          git pull --rebase origin main
+          git push origin HEAD:main
