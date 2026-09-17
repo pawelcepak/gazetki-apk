@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "generatedAt": "2026-09-17T17:01:14.090137+00:00",
+  "generatedAt": "2026-09-17T21:24:13.761333+00:00",
   "demo": false,
   "products": [
     {
@@ -42,17 +42,17 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-14-09-26-19-09-26-owkbc/1"
     },
     {
-      "id": "netto-2026-09-14-7",
-      "name": "Kliknij, aby wyświetlić",
+      "id": "netto-2026-09-14-3",
+      "name": "Majonez dekoracyjny (Winiary)",
       "category": "Promocje z gazetki",
       "storeId": "netto",
       "store": "Netto",
       "price": 12.99,
-      "regularPrice": null,
+      "regularPrice": 14.99,
       "package": "700 ml",
       "unit": "700 ml",
       "promotion": true,
-      "conditions": "14,99 zł Opakowanie: 700 ml Cena promocyjna: 12,99 zł 13% TANIEJ",
+      "conditions": "Cena: 14,99 zł Opakowanie: 700 ml Cena promocyjna: 12,99 zł 13% TANIEJ",
       "validFrom": "2026-09-14",
       "validTo": "2026-09-19",
       "leafletId": "netto-2026-09-14-2026-09-19",
@@ -61,7 +61,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-14-09-26-19-09-26-owkbc/1"
     },
     {
-      "id": "netto-2026-09-14-8",
+      "id": "netto-2026-09-14-4",
       "name": "Mleko UHT 3,2% Łowickie Łowicz (Łowickie Łowicz)",
       "category": "Promocje z gazetki",
       "storeId": "netto",
@@ -80,7 +80,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-14-09-26-19-09-26-owkbc/1"
     },
     {
-      "id": "netto-2026-09-14-9",
+      "id": "netto-2026-09-14-5",
       "name": "Kawa mielona Mocca Fix Gold (Woseba)",
       "category": "Promocje z gazetki",
       "storeId": "netto",
@@ -99,7 +99,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-14-09-26-19-09-26-owkbc/1"
     },
     {
-      "id": "netto-2026-09-14-10",
+      "id": "netto-2026-09-14-6",
       "name": "Jabłko wczesne",
       "category": "Promocje z gazetki",
       "storeId": "netto",
@@ -118,7 +118,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-14-09-26-19-09-26-owkbc/1"
     },
     {
-      "id": "netto-2026-09-14-11",
+      "id": "netto-2026-09-14-7",
       "name": "Papier toaletowy 3-warstwowy (Samelle)",
       "category": "Promocje z gazetki",
       "storeId": "netto",
@@ -137,7 +137,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-14-09-26-19-09-26-owkbc/1"
     },
     {
-      "id": "netto-2026-09-14-12",
+      "id": "netto-2026-09-14-8",
       "name": "Piwo (Tyskie)",
       "category": "Promocje z gazetki",
       "storeId": "netto",
@@ -156,7 +156,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-14-09-26-19-09-26-owkbc/1"
     },
     {
-      "id": "netto-2026-09-14-13",
+      "id": "netto-2026-09-14-9",
       "name": "Chipsy (Lays)",
       "category": "Promocje z gazetki",
       "storeId": "netto",
@@ -175,7 +175,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-14-09-26-19-09-26-owkbc/1"
     },
     {
-      "id": "netto-2026-09-14-14",
+      "id": "netto-2026-09-14-10",
       "name": "Produkty do prania (Vizir)",
       "category": "Promocje z gazetki",
       "storeId": "netto",
@@ -194,7 +194,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-14-09-26-19-09-26-owkbc/1"
     },
     {
-      "id": "netto-2026-09-14-15",
+      "id": "netto-2026-09-14-11",
       "name": "Woda mineralna Cisowianka niegazowana, lekko gazowana (Cisowianka)",
       "category": "Promocje z gazetki",
       "storeId": "netto",
@@ -251,17 +251,17 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/aldi/aldi-14-09-26-19-09-26-hjajv/1"
     },
     {
-      "id": "aldi-2026-09-14-8",
-      "name": "Aldi od PONIEDZIAŁKU 🍫 AKTUALNA GAZETKA | Ogórki 5.99 zł/kg🔥| 14.09 - 19.09.2026",
+      "id": "aldi-2026-09-14-5",
+      "name": "Kurtka softshell damska/męska",
       "category": "Promocje z gazetki",
       "storeId": "aldi",
       "store": "ALDI",
       "price": 59.99,
       "regularPrice": null,
-      "package": "",
-      "unit": "szt.",
+      "package": "1 szt",
+      "unit": "1 szt",
       "promotion": false,
-      "conditions": "Cena: 59,99 zł",
+      "conditions": "Opakowanie: 1 szt Cena: 59,99 zł",
       "validFrom": "2026-09-14",
       "validTo": "2026-09-19",
       "leafletId": "aldi-2026-09-14-2026-09-19",
@@ -270,7 +270,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/aldi/aldi-14-09-26-19-09-26-hjajv/1"
     },
     {
-      "id": "aldi-2026-09-14-9",
+      "id": "aldi-2026-09-14-6",
       "name": "Mięsne specjały Polędwiczki z piersi kurczaka",
       "category": "Promocje z gazetki",
       "storeId": "aldi",
@@ -289,7 +289,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/aldi/aldi-14-09-26-19-09-26-hjajv/1"
     },
     {
-      "id": "aldi-2026-09-14-11",
+      "id": "aldi-2026-09-14-8",
       "name": "Masło ekstra (Łaciate)",
       "category": "Promocje z gazetki",
       "storeId": "aldi",
@@ -308,7 +308,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/aldi/aldi-14-09-26-19-09-26-hjajv/1"
     },
     {
-      "id": "aldi-2026-09-14-13",
+      "id": "aldi-2026-09-14-10",
       "name": "Śliwki polskie",
       "category": "Promocje z gazetki",
       "storeId": "aldi",
@@ -327,7 +327,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/aldi/aldi-14-09-26-19-09-26-hjajv/1"
     },
     {
-      "id": "aldi-2026-09-14-15",
+      "id": "aldi-2026-09-14-12",
       "name": "Grecka oliwa z oliwek extra virgin (Lyttos)",
       "category": "Promocje z gazetki",
       "storeId": "aldi",
@@ -346,7 +346,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/aldi/aldi-14-09-26-19-09-26-hjajv/1"
     },
     {
-      "id": "aldi-2026-09-14-17",
+      "id": "aldi-2026-09-14-14",
       "name": "Kawa ziarnista (Dallmayr)",
       "category": "Promocje z gazetki",
       "storeId": "aldi",
@@ -365,7 +365,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/aldi/aldi-14-09-26-19-09-26-hjajv/1"
     },
     {
-      "id": "aldi-2026-09-14-18",
+      "id": "aldi-2026-09-14-15",
       "name": "Jaja z chowu ekologicznego (Wesoły Kurnik)",
       "category": "Promocje z gazetki",
       "storeId": "aldi",
@@ -384,7 +384,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/aldi/aldi-14-09-26-19-09-26-hjajv/1"
     },
     {
-      "id": "aldi-2026-09-14-20",
+      "id": "aldi-2026-09-14-17",
       "name": "Wkład olejowy 72 h (Calix)",
       "category": "Promocje z gazetki",
       "storeId": "aldi",
@@ -403,7 +403,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/aldi/aldi-14-09-26-19-09-26-hjajv/1"
     },
     {
-      "id": "aldi-2026-09-14-21",
+      "id": "aldi-2026-09-14-18",
       "name": "Woda mineralna (Muszynianka)",
       "category": "Promocje z gazetki",
       "storeId": "aldi",
@@ -422,7 +422,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/aldi/aldi-14-09-26-19-09-26-hjajv/1"
     },
     {
-      "id": "aldi-2026-09-14-22",
+      "id": "aldi-2026-09-14-19",
       "name": "Włoszczyzna",
       "category": "Promocje z gazetki",
       "storeId": "aldi",
