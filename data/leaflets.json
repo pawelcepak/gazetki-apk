@@ -1,6 +1,6 @@
 {
   "schemaVersion": 5,
-  "generatedAt": "2026-09-19T11:01:51.389547+00:00",
+  "generatedAt": "2026-09-19T15:54:27.629363+00:00",
   "leaflets": [
     {
       "id": "netto-2026-09-14-2026-09-19",
@@ -128,7 +128,7 @@
       "from": "2026-09-12",
       "to": "2026-09-19",
       "source": "mojagazetka",
-      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-12-09-26-19-09-26-mynqm/41",
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-12-09-26-19-09-26-mynqm/11",
       "externalUrl": "https://www.lidl.pl/c/gazetki-online/s10008614",
       "reader": "images",
       "pageCount": 95,
