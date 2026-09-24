@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "generatedAt": "2026-09-24T05:02:03.616276+00:00",
+  "generatedAt": "2026-09-24T11:48:45.002949+00:00",
   "demo": false,
   "products": [
     {
@@ -194,17 +194,17 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/aldi/aldi-14-09-26-19-09-26-hjajv/1"
     },
     {
-      "id": "aldi-2026-09-14-5",
-      "name": "Kurtka softshell damska/męska",
+      "id": "aldi-2026-09-14-8",
+      "name": "Aldi od PONIEDZIAŁKU 🍫 AKTUALNA GAZETKA | Ogórki 5.99 zł/kg🔥| 14.09 - 19.09.2026",
       "category": "Promocje z gazetki",
       "storeId": "aldi",
       "store": "ALDI",
       "price": 59.99,
       "regularPrice": null,
-      "package": "1 szt",
-      "unit": "1 szt",
+      "package": "",
+      "unit": "szt.",
       "promotion": false,
-      "conditions": "Opakowanie: 1 szt Cena: 59,99 zł",
+      "conditions": "Cena: 59,99 zł",
       "validFrom": "2026-09-14",
       "validTo": "2026-09-19",
       "leafletId": "aldi-2026-09-14-2026-09-19",
@@ -213,7 +213,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/aldi/aldi-14-09-26-19-09-26-hjajv/1"
     },
     {
-      "id": "aldi-2026-09-14-6",
+      "id": "aldi-2026-09-14-9",
       "name": "Mięsne specjały Polędwiczki z piersi kurczaka",
       "category": "Promocje z gazetki",
       "storeId": "aldi",
@@ -232,7 +232,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/aldi/aldi-14-09-26-19-09-26-hjajv/1"
     },
     {
-      "id": "aldi-2026-09-14-8",
+      "id": "aldi-2026-09-14-11",
       "name": "Masło ekstra (Łaciate)",
       "category": "Promocje z gazetki",
       "storeId": "aldi",
@@ -251,7 +251,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/aldi/aldi-14-09-26-19-09-26-hjajv/1"
     },
     {
-      "id": "aldi-2026-09-14-10",
+      "id": "aldi-2026-09-14-13",
       "name": "Śliwki polskie",
       "category": "Promocje z gazetki",
       "storeId": "aldi",
@@ -270,7 +270,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/aldi/aldi-14-09-26-19-09-26-hjajv/1"
     },
     {
-      "id": "aldi-2026-09-14-12",
+      "id": "aldi-2026-09-14-15",
       "name": "Grecka oliwa z oliwek extra virgin (Lyttos)",
       "category": "Promocje z gazetki",
       "storeId": "aldi",
@@ -289,7 +289,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/aldi/aldi-14-09-26-19-09-26-hjajv/1"
     },
     {
-      "id": "aldi-2026-09-14-14",
+      "id": "aldi-2026-09-14-17",
       "name": "Kawa ziarnista (Dallmayr)",
       "category": "Promocje z gazetki",
       "storeId": "aldi",
@@ -308,7 +308,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/aldi/aldi-14-09-26-19-09-26-hjajv/1"
     },
     {
-      "id": "aldi-2026-09-14-15",
+      "id": "aldi-2026-09-14-18",
       "name": "Jaja z chowu ekologicznego (Wesoły Kurnik)",
       "category": "Promocje z gazetki",
       "storeId": "aldi",
@@ -327,7 +327,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/aldi/aldi-14-09-26-19-09-26-hjajv/1"
     },
     {
-      "id": "aldi-2026-09-14-17",
+      "id": "aldi-2026-09-14-20",
       "name": "Wkład olejowy 72 h (Calix)",
       "category": "Promocje z gazetki",
       "storeId": "aldi",
@@ -346,7 +346,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/aldi/aldi-14-09-26-19-09-26-hjajv/1"
     },
     {
-      "id": "aldi-2026-09-14-18",
+      "id": "aldi-2026-09-14-21",
       "name": "Woda mineralna (Muszynianka)",
       "category": "Promocje z gazetki",
       "storeId": "aldi",
@@ -365,7 +365,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/aldi/aldi-14-09-26-19-09-26-hjajv/1"
     },
     {
-      "id": "aldi-2026-09-14-19",
+      "id": "aldi-2026-09-14-22",
       "name": "Włoszczyzna",
       "category": "Promocje z gazetki",
       "storeId": "aldi",
