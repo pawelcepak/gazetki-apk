@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "generatedAt": "2026-09-24T17:13:19.576521+00:00",
+  "generatedAt": "2026-09-24T21:32:46.779573+00:00",
   "demo": false,
   "products": [
     {
@@ -28,12 +28,12 @@
       "category": "Promocje z gazetki",
       "storeId": "netto",
       "store": "Netto",
-      "price": 3.99,
-      "regularPrice": 9.19,
+      "price": 9.19,
+      "regularPrice": null,
       "package": "1 szt",
       "unit": "1 szt",
-      "promotion": true,
-      "conditions": "Cena: 9,19 zł Opakowanie: 1 szt Cena promocyjna: 3,99 zł 56% TANIEJ!",
+      "promotion": false,
+      "conditions": "Cena: 9,19 zł Opakowanie: 1 szt",
       "validFrom": "2026-09-24",
       "validTo": "2026-09-26",
       "leafletId": "netto-2026-09-24-2026-09-26",
@@ -42,7 +42,26 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-24-09-26-26-09-26-ediaa/1"
     },
     {
-      "id": "netto-2026-09-24-4",
+      "id": "netto-2026-09-24-7",
+      "name": "Kliknij, aby wyświetlić",
+      "category": "Promocje z gazetki",
+      "storeId": "netto",
+      "store": "Netto",
+      "price": 3.99,
+      "regularPrice": null,
+      "package": "",
+      "unit": "szt.",
+      "promotion": true,
+      "conditions": "Cena promocyjna: 3,99 zł 56% TANIEJ!",
+      "validFrom": "2026-09-24",
+      "validTo": "2026-09-26",
+      "leafletId": "netto-2026-09-24-2026-09-26",
+      "page": 1,
+      "source": "mojagazetka",
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-24-09-26-26-09-26-ediaa/1"
+    },
+    {
+      "id": "netto-2026-09-24-8",
       "name": "Chipsy (Lays)",
       "category": "Promocje z gazetki",
       "storeId": "netto",
@@ -61,7 +80,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-24-09-26-26-09-26-ediaa/1"
     },
     {
-      "id": "netto-2026-09-24-5",
+      "id": "netto-2026-09-24-9",
       "name": "Elementy z kurczaka Sztuka Mięsa Mega Paka podudzie udo",
       "category": "Promocje z gazetki",
       "storeId": "netto",
@@ -80,7 +99,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-24-09-26-26-09-26-ediaa/1"
     },
     {
-      "id": "netto-2026-09-24-8",
+      "id": "netto-2026-09-24-12",
       "name": "Pistacje prażone, solone (Bakalie Bakal)",
       "category": "Promocje z gazetki",
       "storeId": "netto",
@@ -99,7 +118,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-24-09-26-26-09-26-ediaa/1"
     },
     {
-      "id": "netto-2026-09-24-9",
+      "id": "netto-2026-09-24-13",
       "name": "Mleko świeże 3,2% (Miletta)",
       "category": "Promocje z gazetki",
       "storeId": "netto",
@@ -118,7 +137,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-24-09-26-26-09-26-ediaa/1"
     },
     {
-      "id": "netto-2026-09-24-11",
+      "id": "netto-2026-09-24-15",
       "name": "Piwo Budvar Original (Budweiser)",
       "category": "Promocje z gazetki",
       "storeId": "netto",
@@ -137,7 +156,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-24-09-26-26-09-26-ediaa/1"
     },
     {
-      "id": "netto-2026-09-24-12",
+      "id": "netto-2026-09-24-16",
       "name": "Pieczarka biała",
       "category": "Promocje z gazetki",
       "storeId": "netto",
@@ -427,12 +446,12 @@
       "category": "Promocje z gazetki",
       "storeId": "lidl",
       "store": "Lidl",
-      "price": 6.49,
-      "regularPrice": 13.89,
+      "price": 13.89,
+      "regularPrice": null,
       "package": "1 kg",
       "unit": "1 kg",
-      "promotion": true,
-      "conditions": "Cena: 13,89 zł Opakowanie: 1 kg Cena promocyjna: 6,49 zł Aktywuj kupon i zeskanuj aplikację Taniej",
+      "promotion": false,
+      "conditions": "Cena: 13,89 zł Opakowanie: 1 kg",
       "validFrom": "2026-09-24",
       "validTo": "2026-09-26",
       "leafletId": "lidl-2026-09-24-2026-09-26",
@@ -441,7 +460,26 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-24-09-26-26-09-26-avcvi/29"
     },
     {
-      "id": "lidl-2026-09-24-5",
+      "id": "lidl-2026-09-24-8",
+      "name": "Kliknij, aby wyświetlić",
+      "category": "Promocje z gazetki",
+      "storeId": "lidl",
+      "store": "Lidl",
+      "price": 6.49,
+      "regularPrice": null,
+      "package": "",
+      "unit": "szt.",
+      "promotion": true,
+      "conditions": "Cena promocyjna: 6,49 zł Aktywuj kupon i zeskanuj aplikację Taniej",
+      "validFrom": "2026-09-24",
+      "validTo": "2026-09-26",
+      "leafletId": "lidl-2026-09-24-2026-09-26",
+      "page": 1,
+      "source": "mojagazetka",
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-24-09-26-26-09-26-avcvi/29"
+    },
+    {
+      "id": "lidl-2026-09-24-9",
       "name": "Nektarynki, luzem",
       "category": "Promocje z gazetki",
       "storeId": "lidl",
@@ -460,7 +498,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-24-09-26-26-09-26-avcvi/29"
     },
     {
-      "id": "lidl-2026-09-24-6",
+      "id": "lidl-2026-09-24-10",
       "name": "sok (Solevita)",
       "category": "Promocje z gazetki",
       "storeId": "lidl",
@@ -479,7 +517,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-24-09-26-26-09-26-avcvi/29"
     },
     {
-      "id": "lidl-2026-09-24-7",
+      "id": "lidl-2026-09-24-11",
       "name": "Banany, luzem",
       "category": "Promocje z gazetki",
       "storeId": "lidl",
@@ -498,7 +536,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-24-09-26-26-09-26-avcvi/29"
     },
     {
-      "id": "lidl-2026-09-24-9",
+      "id": "lidl-2026-09-24-13",
       "name": "Margaryna Słynne MR (Słynne Mr)",
       "category": "Promocje z gazetki",
       "storeId": "lidl",
@@ -517,7 +555,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-24-09-26-26-09-26-avcvi/29"
     },
     {
-      "id": "lidl-2026-09-24-10",
+      "id": "lidl-2026-09-24-14",
       "name": "Płyn do prania kolorowych tkanin renew (Perwoll)",
       "category": "Promocje z gazetki",
       "storeId": "lidl",
@@ -536,7 +574,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-24-09-26-26-09-26-avcvi/29"
     },
     {
-      "id": "lidl-2026-09-24-11",
+      "id": "lidl-2026-09-24-15",
       "name": "BLACK DETERGENT renew (Perwoll)",
       "category": "Promocje z gazetki",
       "storeId": "lidl",
@@ -555,7 +593,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-24-09-26-26-09-26-avcvi/29"
     },
     {
-      "id": "lidl-2026-09-24-12",
+      "id": "lidl-2026-09-24-16",
       "name": "Płyn do prania (Perwoll)",
       "category": "Promocje z gazetki",
       "storeId": "lidl",
@@ -574,7 +612,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-24-09-26-26-09-26-avcvi/29"
     },
     {
-      "id": "lidl-2026-09-24-14",
+      "id": "lidl-2026-09-24-18",
       "name": "Płatki kukurydziane (Crownfield)",
       "category": "Promocje z gazetki",
       "storeId": "lidl",
