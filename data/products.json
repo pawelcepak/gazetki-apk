@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "generatedAt": "2026-09-27T16:59:42.600462+00:00",
+  "generatedAt": "2026-09-27T21:22:17.848603+00:00",
   "demo": false,
   "products": [
     {
@@ -61,7 +61,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-24-09-26-30-09-26-wqbta/4"
     },
     {
-      "id": "netto-2026-09-24-4",
+      "id": "netto-2026-09-24-7",
       "name": "Dekoracja dynia z gałązkami",
       "category": "Promocje z gazetki",
       "storeId": "netto",
@@ -80,7 +80,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-24-09-26-30-09-26-wqbta/4"
     },
     {
-      "id": "netto-2026-09-24-5",
+      "id": "netto-2026-09-24-8",
       "name": "Poszewka na poduszkę",
       "category": "Promocje z gazetki",
       "storeId": "netto",
@@ -99,7 +99,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-24-09-26-30-09-26-wqbta/4"
     },
     {
-      "id": "netto-2026-09-24-6",
+      "id": "netto-2026-09-24-9",
       "name": "Narzuta na łóżko",
       "category": "Promocje z gazetki",
       "storeId": "netto",
@@ -118,7 +118,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-24-09-26-30-09-26-wqbta/4"
     },
     {
-      "id": "netto-2026-09-24-7",
+      "id": "netto-2026-09-24-10",
       "name": "Dynia dekoracyjna",
       "category": "Promocje z gazetki",
       "storeId": "netto",
@@ -137,7 +137,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-24-09-26-30-09-26-wqbta/4"
     },
     {
-      "id": "netto-2026-09-24-8",
+      "id": "netto-2026-09-24-11",
       "name": "Dekoracja jesienna jeż",
       "category": "Promocje z gazetki",
       "storeId": "netto",
@@ -156,7 +156,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-24-09-26-30-09-26-wqbta/4"
     },
     {
-      "id": "netto-2026-09-24-9",
+      "id": "netto-2026-09-24-12",
       "name": "Dynia dekoracyjna",
       "category": "Promocje z gazetki",
       "storeId": "netto",
@@ -175,7 +175,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-24-09-26-30-09-26-wqbta/4"
     },
     {
-      "id": "netto-2026-09-24-10",
+      "id": "netto-2026-09-24-13",
       "name": "Lampka dynia LED",
       "category": "Promocje z gazetki",
       "storeId": "netto",
@@ -194,7 +194,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-24-09-26-30-09-26-wqbta/4"
     },
     {
-      "id": "netto-2026-09-24-11",
+      "id": "netto-2026-09-24-14",
       "name": "Skarpety damskie (różne wzory)",
       "category": "Promocje z gazetki",
       "storeId": "netto",
@@ -213,7 +213,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-24-09-26-30-09-26-wqbta/4"
     },
     {
-      "id": "netto-2026-09-24-12",
+      "id": "netto-2026-09-24-15",
       "name": "Kapcie (różne wzory)",
       "category": "Promocje z gazetki",
       "storeId": "netto",
@@ -484,12 +484,12 @@
       "category": "Promocje z gazetki",
       "storeId": "lidl",
       "store": "Lidl",
-      "price": 5.99,
-      "regularPrice": 12.99,
+      "price": 12.99,
+      "regularPrice": null,
       "package": "1 kg",
       "unit": "1 kg",
-      "promotion": true,
-      "conditions": "Cena: 12,99 zł Opakowanie: 1 kg Cena promocyjna: 5,99 zł",
+      "promotion": false,
+      "conditions": "Cena: 12,99 zł Opakowanie: 1 kg",
       "validFrom": "2026-09-14",
       "validTo": "2026-09-16",
       "leafletId": "lidl-2026-09-14-2026-09-16",
@@ -498,7 +498,26 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-14-09-26-16-09-26-dsqqg/1"
     },
     {
-      "id": "lidl-2026-09-14-6",
+      "id": "lidl-2026-09-14-9",
+      "name": "Kliknij, aby wyświetlić",
+      "category": "Promocje z gazetki",
+      "storeId": "lidl",
+      "store": "Lidl",
+      "price": 5.99,
+      "regularPrice": null,
+      "package": "",
+      "unit": "szt.",
+      "promotion": true,
+      "conditions": "Cena promocyjna: 5,99 zł",
+      "validFrom": "2026-09-14",
+      "validTo": "2026-09-16",
+      "leafletId": "lidl-2026-09-14-2026-09-16",
+      "page": 1,
+      "source": "mojagazetka",
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-14-09-26-16-09-26-dsqqg/1"
+    },
+    {
+      "id": "lidl-2026-09-14-11",
       "name": "Nektarynki, luzem",
       "category": "Promocje z gazetki",
       "storeId": "lidl",
@@ -517,7 +536,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-14-09-26-16-09-26-dsqqg/1"
     },
     {
-      "id": "lidl-2026-09-14-7",
+      "id": "lidl-2026-09-14-12",
       "name": "Pierogi ruskie, z serem, z mięsem, ze szpinakiem i serem lub z serem i jagodami (Chef Select)",
       "category": "Promocje z gazetki",
       "storeId": "lidl",
@@ -536,7 +555,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-14-09-26-16-09-26-dsqqg/1"
     },
     {
-      "id": "lidl-2026-09-14-9",
+      "id": "lidl-2026-09-14-14",
       "name": "Pizza z pieca kamiennego 4 sery, capricciosa lub z kurczakiem (Chef Select)",
       "category": "Promocje z gazetki",
       "storeId": "lidl",
@@ -555,7 +574,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-14-09-26-16-09-26-dsqqg/1"
     },
     {
-      "id": "lidl-2026-09-14-11",
+      "id": "lidl-2026-09-14-16",
       "name": "Masło ekstra 83% (Pilos)",
       "category": "Promocje z gazetki",
       "storeId": "lidl",
@@ -574,7 +593,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-14-09-26-16-09-26-dsqqg/1"
     },
     {
-      "id": "lidl-2026-09-14-12",
+      "id": "lidl-2026-09-14-17",
       "name": "Schab wieprzowy, XXL",
       "category": "Promocje z gazetki",
       "storeId": "lidl",
@@ -593,7 +612,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-14-09-26-16-09-26-dsqqg/1"
     },
     {
-      "id": "lidl-2026-09-14-14",
+      "id": "lidl-2026-09-14-19",
       "name": "Łopatka wieprzowa (Rzeźnik)",
       "category": "Promocje z gazetki",
       "storeId": "lidl",
@@ -612,7 +631,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-14-09-26-16-09-26-dsqqg/1"
     },
     {
-      "id": "lidl-2026-09-14-17",
+      "id": "lidl-2026-09-14-22",
       "name": "Ser gouda i edam w plastrach XXL (Pilos)",
       "category": "Promocje z gazetki",
       "storeId": "lidl",
@@ -631,7 +650,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-14-09-26-16-09-26-dsqqg/1"
     },
     {
-      "id": "lidl-2026-09-14-19",
+      "id": "lidl-2026-09-14-24",
       "name": "Chleb żytni bez drożdży, z niskim indeksem glikemicznym",
       "category": "Promocje z gazetki",
       "storeId": "lidl",
