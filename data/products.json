@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "generatedAt": "2026-09-28T05:34:44.816980+00:00",
+  "generatedAt": "2026-09-28T13:58:23.657594+00:00",
   "demo": false,
   "products": [
     {
@@ -157,6 +157,44 @@
     },
     {
       "id": "netto-2026-09-28-9",
+      "name": "Cukierki różne rodzaje",
+      "category": "Promocje z gazetki",
+      "storeId": "netto",
+      "store": "Netto",
+      "price": 3.99,
+      "regularPrice": 39.9,
+      "package": "100 g",
+      "unit": "100 g",
+      "promotion": false,
+      "conditions": "Cena: 39,90 zł Opakowanie: 100 g Cena: 3,99 zł",
+      "validFrom": "2026-09-28",
+      "validTo": "2026-10-03",
+      "leafletId": "netto-2026-09-28-2026-10-03",
+      "page": 1,
+      "source": "mojagazetka",
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-28-09-26-03-10-26-hsjnn/1"
+    },
+    {
+      "id": "netto-2026-09-28-10",
+      "name": "Ser Tylżycki Kuchmistrza XXL (Mlekovita)",
+      "category": "Promocje z gazetki",
+      "storeId": "netto",
+      "store": "Netto",
+      "price": 19.99,
+      "regularPrice": 25.99,
+      "package": "800 g",
+      "unit": "800 g",
+      "promotion": true,
+      "conditions": "Cena: 25,99 zł Opakowanie: 800 g Cena promocyjna: 19,99 zł 23% TANIEJ!",
+      "validFrom": "2026-09-28",
+      "validTo": "2026-10-03",
+      "leafletId": "netto-2026-09-28-2026-10-03",
+      "page": 1,
+      "source": "mojagazetka",
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-28-09-26-03-10-26-hsjnn/1"
+    },
+    {
+      "id": "netto-2026-09-28-11",
       "name": "Miód nektarowy wielokwiatowy (Huzar)",
       "category": "Promocje z gazetki",
       "storeId": "netto",
@@ -175,7 +213,7 @@
       "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-28-09-26-03-10-26-hsjnn/1"
     },
     {
-      "id": "netto-2026-09-28-10",
+      "id": "netto-2026-09-28-12",
       "name": "Koncentrat pomidorowy Tradycyjny Smak",
       "category": "Promocje z gazetki",
       "storeId": "netto",
@@ -186,44 +224,6 @@
       "unit": "190 g",
       "promotion": true,
       "conditions": "Cena: 2,59 zł Opakowanie: 190 g Cena promocyjna: 1,99 zł Cena za 1 szt. przy zakupie 2 szt.",
-      "validFrom": "2026-09-28",
-      "validTo": "2026-10-03",
-      "leafletId": "netto-2026-09-28-2026-10-03",
-      "page": 1,
-      "source": "mojagazetka",
-      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-28-09-26-03-10-26-hsjnn/1"
-    },
-    {
-      "id": "netto-2026-09-28-11",
-      "name": "Papier toaletowy 2-warstwowy (Samelle)",
-      "category": "Promocje z gazetki",
-      "storeId": "netto",
-      "store": "Netto",
-      "price": 3.99,
-      "regularPrice": 7.29,
-      "package": "8 szt",
-      "unit": "8 szt",
-      "promotion": true,
-      "conditions": "Cena: 7,29 zł Opakowanie: 8 szt Cena promocyjna: 3,99 zł 45% TANIEJ!",
-      "validFrom": "2026-09-28",
-      "validTo": "2026-10-03",
-      "leafletId": "netto-2026-09-28-2026-10-03",
-      "page": 1,
-      "source": "mojagazetka",
-      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-28-09-26-03-10-26-hsjnn/1"
-    },
-    {
-      "id": "netto-2026-09-28-12",
-      "name": "Woda mineralna Muszynianka niskonasycona średnionasycona (Muszynianka)",
-      "category": "Promocje z gazetki",
-      "storeId": "netto",
-      "store": "Netto",
-      "price": 1.99,
-      "regularPrice": 3.39,
-      "package": "1 l",
-      "unit": "1 l",
-      "promotion": true,
-      "conditions": "Cena: 3,39 zł Opakowanie: 1 l Cena promocyjna: 1,99 zł Cena za 1 szt. przy zakupie 6 szt.",
       "validFrom": "2026-09-28",
       "validTo": "2026-10-03",
       "leafletId": "netto-2026-09-28-2026-10-03",
@@ -476,7 +476,7 @@
       "leafletId": "lidl-2026-09-28-2026-09-30",
       "page": 1,
       "source": "mojagazetka",
-      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-28-09-26-30-09-26-jmtrj/1"
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-28-09-26-30-09-26-jmtrj/44"
     },
     {
       "id": "lidl-2026-09-28-3",
@@ -495,7 +495,7 @@
       "leafletId": "lidl-2026-09-28-2026-09-30",
       "page": 1,
       "source": "mojagazetka",
-      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-28-09-26-30-09-26-jmtrj/1"
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-28-09-26-30-09-26-jmtrj/44"
     },
     {
       "id": "lidl-2026-09-28-4",
@@ -514,7 +514,7 @@
       "leafletId": "lidl-2026-09-28-2026-09-30",
       "page": 1,
       "source": "mojagazetka",
-      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-28-09-26-30-09-26-jmtrj/1"
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-28-09-26-30-09-26-jmtrj/44"
     },
     {
       "id": "lidl-2026-09-28-5",
@@ -533,7 +533,7 @@
       "leafletId": "lidl-2026-09-28-2026-09-30",
       "page": 1,
       "source": "mojagazetka",
-      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-28-09-26-30-09-26-jmtrj/1"
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-28-09-26-30-09-26-jmtrj/44"
     },
     {
       "id": "lidl-2026-09-28-6",
@@ -552,7 +552,7 @@
       "leafletId": "lidl-2026-09-28-2026-09-30",
       "page": 1,
       "source": "mojagazetka",
-      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-28-09-26-30-09-26-jmtrj/1"
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-28-09-26-30-09-26-jmtrj/44"
     },
     {
       "id": "lidl-2026-09-28-8",
@@ -571,7 +571,7 @@
       "leafletId": "lidl-2026-09-28-2026-09-30",
       "page": 1,
       "source": "mojagazetka",
-      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-28-09-26-30-09-26-jmtrj/1"
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-28-09-26-30-09-26-jmtrj/44"
     },
     {
       "id": "lidl-2026-09-28-9",
@@ -590,7 +590,7 @@
       "leafletId": "lidl-2026-09-28-2026-09-30",
       "page": 1,
       "source": "mojagazetka",
-      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-28-09-26-30-09-26-jmtrj/1"
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-28-09-26-30-09-26-jmtrj/44"
     },
     {
       "id": "lidl-2026-09-28-14",
@@ -609,11 +609,11 @@
       "leafletId": "lidl-2026-09-28-2026-09-30",
       "page": 1,
       "source": "mojagazetka",
-      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-28-09-26-30-09-26-jmtrj/1"
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-28-09-26-30-09-26-jmtrj/44"
     },
     {
       "id": "lidl-2026-09-28-16",
-      "name": "Chocolate (Kinder)",
+      "name": "Słodycze Kinder (Kinder)",
       "category": "Promocje z gazetki",
       "storeId": "lidl",
       "store": "Lidl",
@@ -628,7 +628,7 @@
       "leafletId": "lidl-2026-09-28-2026-09-30",
       "page": 1,
       "source": "mojagazetka",
-      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-28-09-26-30-09-26-jmtrj/1"
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-28-09-26-30-09-26-jmtrj/44"
     },
     {
       "id": "lidl-2026-09-28-17",
@@ -647,7 +647,7 @@
       "leafletId": "lidl-2026-09-28-2026-09-30",
       "page": 1,
       "source": "mojagazetka",
-      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-28-09-26-30-09-26-jmtrj/1"
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-28-09-26-30-09-26-jmtrj/44"
     }
   ]
 }
