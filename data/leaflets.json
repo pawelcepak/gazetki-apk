@@ -1,6 +1,6 @@
 {
   "schemaVersion": 5,
-  "generatedAt": "2026-10-02T12:38:37.650495+00:00",
+  "generatedAt": "2026-10-02T22:16:23.847710+00:00",
   "leaflets": [
     {
       "id": "netto-2026-09-28-2026-10-03",
@@ -61,15 +61,23 @@
       "from": "2026-09-28",
       "to": "2026-10-03",
       "source": "mojagazetka",
-      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/aldi/aldi-28-09-26-03-10-26-zmjej/1",
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/aldi/aldi-28-09-26-03-10-26-hojdx/1",
       "externalUrl": "https://www.aldi.pl/informacje-dla-klienta/nasze-gazetki.html",
       "reader": "images",
-      "pageCount": 4,
+      "pageCount": 12,
       "pages": [
-        "https://app.moja-e-gazetka.pl/261003_260928_aldi_zmjej/image01.webp",
-        "https://app.moja-e-gazetka.pl/261003_260928_aldi_zmjej/image02.webp",
-        "https://app.moja-e-gazetka.pl/261003_260928_aldi_zmjej/image03.webp",
-        "https://app.moja-e-gazetka.pl/261003_260928_aldi_zmjej/image04.webp"
+        "https://app.moja-e-gazetka.pl/261003_260928_aldi_hojdx/image01.webp",
+        "https://app.moja-e-gazetka.pl/261003_260928_aldi_hojdx/image02.webp",
+        "https://app.moja-e-gazetka.pl/261003_260928_aldi_hojdx/image03.webp",
+        "https://app.moja-e-gazetka.pl/261003_260928_aldi_hojdx/image04.webp",
+        "https://app.moja-e-gazetka.pl/261003_260928_aldi_hojdx/image05.webp",
+        "https://app.moja-e-gazetka.pl/261003_260928_aldi_hojdx/image06.webp",
+        "https://app.moja-e-gazetka.pl/261003_260928_aldi_hojdx/image07.webp",
+        "https://app.moja-e-gazetka.pl/261003_260928_aldi_hojdx/image08.webp",
+        "https://app.moja-e-gazetka.pl/261003_260928_aldi_hojdx/image09.webp",
+        "https://app.moja-e-gazetka.pl/261003_260928_aldi_hojdx/image10.webp",
+        "https://app.moja-e-gazetka.pl/261003_260928_aldi_hojdx/image11.webp",
+        "https://app.moja-e-gazetka.pl/261003_260928_aldi_hojdx/image12.webp"
       ]
     },
     {
