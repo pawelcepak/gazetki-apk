@@ -1,6 +1,6 @@
 {
   "schemaVersion": 5,
-  "generatedAt": "2026-10-05T14:44:43.861778+00:00",
+  "generatedAt": "2026-10-07T06:03:07.615171+00:00",
   "leaflets": [
     {
       "id": "netto-2026-10-05-2026-10-10",
@@ -10,7 +10,7 @@
       "from": "2026-10-05",
       "to": "2026-10-10",
       "source": "mojagazetka",
-      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-05-10-26-10-10-26-zprbx/1",
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-05-10-26-10-10-26-zprbx/4",
       "externalUrl": "https://netto.pl/gazetka-netto/",
       "reader": "images",
       "pageCount": 37,
@@ -55,24 +55,22 @@
       ]
     },
     {
-      "id": "aldi-2026-10-05-2026-10-10",
+      "id": "aldi-2026-10-07-2026-10-07",
       "storeId": "aldi",
       "store": "ALDI",
       "title": "Wybieram ALDI",
-      "from": "2026-10-05",
-      "to": "2026-10-10",
+      "from": "2026-10-07",
+      "to": "2026-10-07",
       "source": "mojagazetka",
-      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/aldi/aldi-05-10-26-10-10-26-jlixw/1",
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/aldi/aldi-07-10-26-07-10-26-rlewe/1",
       "externalUrl": "https://www.aldi.pl/informacje-dla-klienta/nasze-gazetki.html",
       "reader": "images",
-      "pageCount": 6,
+      "pageCount": 4,
       "pages": [
-        "https://app.moja-e-gazetka.pl/261010_261005_aldi_jlixw/image01.webp",
-        "https://app.moja-e-gazetka.pl/261010_261005_aldi_jlixw/image02.webp",
-        "https://app.moja-e-gazetka.pl/261010_261005_aldi_jlixw/image03.webp",
-        "https://app.moja-e-gazetka.pl/261010_261005_aldi_jlixw/image04.webp",
-        "https://app.moja-e-gazetka.pl/261010_261005_aldi_jlixw/image05.webp",
-        "https://app.moja-e-gazetka.pl/261010_261005_aldi_jlixw/image06.webp"
+        "https://app.moja-e-gazetka.pl/261007_261007_aldi_rlewe/image01.webp",
+        "https://app.moja-e-gazetka.pl/261007_261007_aldi_rlewe/image02.webp",
+        "https://app.moja-e-gazetka.pl/261007_261007_aldi_rlewe/image03.webp",
+        "https://app.moja-e-gazetka.pl/261007_261007_aldi_rlewe/image04.webp"
       ]
     },
     {
