@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "generatedAt": "2026-10-13T00:42:26.653406+00:00",
+  "generatedAt": "2026-10-13T14:14:33.450620+00:00",
   "demo": false,
   "products": [
     {
@@ -423,25 +423,6 @@
     },
     {
       "id": "lidl-2026-10-12-1",
-      "name": "Łopatka wieprzowa (Rzeźnik)",
-      "category": "Promocje z gazetki",
-      "storeId": "lidl",
-      "store": "Lidl",
-      "price": 9.99,
-      "regularPrice": 13.49,
-      "package": "1 kg",
-      "unit": "1 kg",
-      "promotion": true,
-      "conditions": "Cena: 13,49 zł Opakowanie: 1 kg Cena promocyjna: 9,99 zł",
-      "validFrom": "2026-10-12",
-      "validTo": "2026-10-17",
-      "leafletId": "lidl-2026-10-12-2026-10-17",
-      "page": 1,
-      "source": "mojagazetka",
-      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-12-10-26-17-10-26-vhxsz/49"
-    },
-    {
-      "id": "lidl-2026-10-12-4",
       "name": "Maliny",
       "category": "Promocje z gazetki",
       "storeId": "lidl",
@@ -457,7 +438,26 @@
       "leafletId": "lidl-2026-10-12-2026-10-17",
       "page": 1,
       "source": "mojagazetka",
-      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-12-10-26-17-10-26-vhxsz/49"
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-12-10-26-17-10-26-vhxsz/17"
+    },
+    {
+      "id": "lidl-2026-10-12-3",
+      "name": "Łopatka wieprzowa (Rzeźnik)",
+      "category": "Promocje z gazetki",
+      "storeId": "lidl",
+      "store": "Lidl",
+      "price": 9.99,
+      "regularPrice": 13.49,
+      "package": "1 kg",
+      "unit": "1 kg",
+      "promotion": true,
+      "conditions": "Cena: 13,49 zł Opakowanie: 1 kg Cena promocyjna: 9,99 zł",
+      "validFrom": "2026-10-12",
+      "validTo": "2026-10-17",
+      "leafletId": "lidl-2026-10-12-2026-10-17",
+      "page": 1,
+      "source": "mojagazetka",
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-12-10-26-17-10-26-vhxsz/17"
     },
     {
       "id": "lidl-2026-10-12-6",
@@ -476,7 +476,7 @@
       "leafletId": "lidl-2026-10-12-2026-10-17",
       "page": 1,
       "source": "mojagazetka",
-      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-12-10-26-17-10-26-vhxsz/49"
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-12-10-26-17-10-26-vhxsz/17"
     },
     {
       "id": "lidl-2026-10-12-9",
@@ -495,7 +495,7 @@
       "leafletId": "lidl-2026-10-12-2026-10-17",
       "page": 1,
       "source": "mojagazetka",
-      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-12-10-26-17-10-26-vhxsz/49"
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-12-10-26-17-10-26-vhxsz/17"
     },
     {
       "id": "lidl-2026-10-12-11",
@@ -514,7 +514,7 @@
       "leafletId": "lidl-2026-10-12-2026-10-17",
       "page": 1,
       "source": "mojagazetka",
-      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-12-10-26-17-10-26-vhxsz/49"
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-12-10-26-17-10-26-vhxsz/17"
     },
     {
       "id": "lidl-2026-10-12-12",
@@ -533,7 +533,7 @@
       "leafletId": "lidl-2026-10-12-2026-10-17",
       "page": 1,
       "source": "mojagazetka",
-      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-12-10-26-17-10-26-vhxsz/49"
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-12-10-26-17-10-26-vhxsz/17"
     },
     {
       "id": "lidl-2026-10-12-13",
@@ -552,7 +552,7 @@
       "leafletId": "lidl-2026-10-12-2026-10-17",
       "page": 1,
       "source": "mojagazetka",
-      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-12-10-26-17-10-26-vhxsz/49"
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-12-10-26-17-10-26-vhxsz/17"
     },
     {
       "id": "lidl-2026-10-12-14",
@@ -571,7 +571,7 @@
       "leafletId": "lidl-2026-10-12-2026-10-17",
       "page": 1,
       "source": "mojagazetka",
-      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-12-10-26-17-10-26-vhxsz/49"
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-12-10-26-17-10-26-vhxsz/17"
     }
   ]
 }

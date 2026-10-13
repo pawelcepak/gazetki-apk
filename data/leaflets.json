@@ -1,6 +1,6 @@
 {
   "schemaVersion": 5,
-  "generatedAt": "2026-10-13T00:42:26.653406+00:00",
+  "generatedAt": "2026-10-13T14:14:33.450620+00:00",
   "leaflets": [
     {
       "id": "netto-2026-10-12-2026-10-17",
@@ -80,7 +80,7 @@
       "from": "2026-10-12",
       "to": "2026-10-17",
       "source": "mojagazetka",
-      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-12-10-26-17-10-26-vhxsz/49",
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-12-10-26-17-10-26-vhxsz/17",
       "externalUrl": "https://www.lidl.pl/c/gazetki-online/s10008614",
       "reader": "images",
       "pageCount": 114,
