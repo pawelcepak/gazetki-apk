@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "generatedAt": "2026-10-19T13:20:34.634988+00:00",
+  "generatedAt": "2026-10-19T22:22:45.483870+00:00",
   "demo": false,
   "products": [
     {
@@ -471,6 +471,25 @@
       "unit": "125 g",
       "promotion": true,
       "conditions": "Cena: 8,99 zł Opakowanie: 125 g Cena promocyjna: 4,99 zł",
+      "validFrom": "2026-10-19",
+      "validTo": "2026-10-21",
+      "leafletId": "lidl-2026-10-19-2026-10-21",
+      "page": 1,
+      "source": "mojagazetka",
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/lidl/lidl-19-10-26-21-10-26-hnsal/5"
+    },
+    {
+      "id": "lidl-2026-10-19-17",
+      "name": "Mleko UHT (Mlekovita)",
+      "category": "Promocje z gazetki",
+      "storeId": "lidl",
+      "store": "Lidl",
+      "price": 1.99,
+      "regularPrice": 3.99,
+      "package": "1 l",
+      "unit": "1 l",
+      "promotion": false,
+      "conditions": "Cena: 3,99 zł Opakowanie: 1 l Cena: 1,99 zł",
       "validFrom": "2026-10-19",
       "validTo": "2026-10-21",
       "leafletId": "lidl-2026-10-19-2026-10-21",
