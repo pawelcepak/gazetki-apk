@@ -1,31 +1,24 @@
 {
   "schemaVersion": 5,
-  "generatedAt": "2026-10-20T04:53:19.002948+00:00",
+  "generatedAt": "2026-10-20T11:40:41.637568+00:00",
   "leaflets": [
     {
-      "id": "netto-2026-10-19-2099-10-19",
+      "id": "netto-2026-10-19-2026-10-24",
       "storeId": "netto",
       "store": "Netto",
       "title": "Gazetka spożywcza",
       "from": "2026-10-19",
-      "to": "2099-10-19",
+      "to": "2026-10-24",
       "source": "mojagazetka",
-      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-19-10-26-19-10-99-gycru/1",
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-19-10-26-24-10-26-rwvqm/2",
       "externalUrl": "https://netto.pl/gazetka-netto/",
       "reader": "images",
-      "pageCount": 11,
+      "pageCount": 4,
       "pages": [
-        "https://app.moja-e-gazetka.pl/991019_261019_netto_gycru/image01.webp",
-        "https://app.moja-e-gazetka.pl/991019_261019_netto_gycru/image02.webp",
-        "https://app.moja-e-gazetka.pl/991019_261019_netto_gycru/image03.webp",
-        "https://app.moja-e-gazetka.pl/991019_261019_netto_gycru/image04.webp",
-        "https://app.moja-e-gazetka.pl/991019_261019_netto_gycru/image05.webp",
-        "https://app.moja-e-gazetka.pl/991019_261019_netto_gycru/image06.webp",
-        "https://app.moja-e-gazetka.pl/991019_261019_netto_gycru/image07.webp",
-        "https://app.moja-e-gazetka.pl/991019_261019_netto_gycru/image08.webp",
-        "https://app.moja-e-gazetka.pl/991019_261019_netto_gycru/image09.webp",
-        "https://app.moja-e-gazetka.pl/991019_261019_netto_gycru/image10.webp",
-        "https://app.moja-e-gazetka.pl/991019_261019_netto_gycru/image11.webp"
+        "https://app.moja-e-gazetka.pl/261024_261019_netto_rwvqm/image01.webp",
+        "https://app.moja-e-gazetka.pl/261024_261019_netto_rwvqm/image02.webp",
+        "https://app.moja-e-gazetka.pl/261024_261019_netto_rwvqm/image03.webp",
+        "https://app.moja-e-gazetka.pl/261024_261019_netto_rwvqm/image04.webp"
       ]
     },
     {
