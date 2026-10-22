@@ -1,49 +1,24 @@
 {
   "schemaVersion": 5,
-  "generatedAt": "2026-10-22T04:55:25.892256+00:00",
+  "generatedAt": "2026-10-22T11:55:43.511909+00:00",
   "leaflets": [
     {
-      "id": "netto-2026-10-22-2026-10-24",
+      "id": "netto-2026-10-19-2026-10-24",
       "storeId": "netto",
       "store": "Netto",
       "title": "Gazetka spożywcza",
-      "from": "2026-10-22",
+      "from": "2026-10-19",
       "to": "2026-10-24",
       "source": "mojagazetka",
-      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-22-10-26-24-10-26-metyw/1",
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-19-10-26-24-10-26-rwvqm/2",
       "externalUrl": "https://netto.pl/gazetka-netto/",
       "reader": "images",
-      "pageCount": 29,
+      "pageCount": 4,
       "pages": [
-        "https://app.moja-e-gazetka.pl/261024_261022_netto_metyw/image01.webp",
-        "https://app.moja-e-gazetka.pl/261024_261022_netto_metyw/image02.webp",
-        "https://app.moja-e-gazetka.pl/261024_261022_netto_metyw/image03.webp",
-        "https://app.moja-e-gazetka.pl/261024_261022_netto_metyw/image04.webp",
-        "https://app.moja-e-gazetka.pl/261024_261022_netto_metyw/image05.webp",
-        "https://app.moja-e-gazetka.pl/261024_261022_netto_metyw/image06.webp",
-        "https://app.moja-e-gazetka.pl/261024_261022_netto_metyw/image07.webp",
-        "https://app.moja-e-gazetka.pl/261024_261022_netto_metyw/image08.webp",
-        "https://app.moja-e-gazetka.pl/261024_261022_netto_metyw/image09.webp",
-        "https://app.moja-e-gazetka.pl/261024_261022_netto_metyw/image10.webp",
-        "https://app.moja-e-gazetka.pl/261024_261022_netto_metyw/image11.webp",
-        "https://app.moja-e-gazetka.pl/261024_261022_netto_metyw/image12.webp",
-        "https://app.moja-e-gazetka.pl/261024_261022_netto_metyw/image13.webp",
-        "https://app.moja-e-gazetka.pl/261024_261022_netto_metyw/image14.webp",
-        "https://app.moja-e-gazetka.pl/261024_261022_netto_metyw/image15.webp",
-        "https://app.moja-e-gazetka.pl/261024_261022_netto_metyw/image16.webp",
-        "https://app.moja-e-gazetka.pl/261024_261022_netto_metyw/image17.webp",
-        "https://app.moja-e-gazetka.pl/261024_261022_netto_metyw/image18.webp",
-        "https://app.moja-e-gazetka.pl/261024_261022_netto_metyw/image19.webp",
-        "https://app.moja-e-gazetka.pl/261024_261022_netto_metyw/image20.webp",
-        "https://app.moja-e-gazetka.pl/261024_261022_netto_metyw/image21.webp",
-        "https://app.moja-e-gazetka.pl/261024_261022_netto_metyw/image22.webp",
-        "https://app.moja-e-gazetka.pl/261024_261022_netto_metyw/image23.webp",
-        "https://app.moja-e-gazetka.pl/261024_261022_netto_metyw/image24.webp",
-        "https://app.moja-e-gazetka.pl/261024_261022_netto_metyw/image25.webp",
-        "https://app.moja-e-gazetka.pl/261024_261022_netto_metyw/image26.webp",
-        "https://app.moja-e-gazetka.pl/261024_261022_netto_metyw/image27.webp",
-        "https://app.moja-e-gazetka.pl/261024_261022_netto_metyw/image28.webp",
-        "https://app.moja-e-gazetka.pl/261024_261022_netto_metyw/image29.webp"
+        "https://app.moja-e-gazetka.pl/261024_261019_netto_rwvqm/image01.webp",
+        "https://app.moja-e-gazetka.pl/261024_261019_netto_rwvqm/image02.webp",
+        "https://app.moja-e-gazetka.pl/261024_261019_netto_rwvqm/image03.webp",
+        "https://app.moja-e-gazetka.pl/261024_261019_netto_rwvqm/image04.webp"
       ]
     },
     {
@@ -202,6 +177,7 @@
       "lidl"
     ],
     "productCatalog": [
+      "netto",
       "aldi",
       "lidl"
     ],
