@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "generatedAt": "2026-10-26T04:55:53.970571+00:00",
+  "generatedAt": "2026-10-26T13:06:26.463914+00:00",
   "demo": false,
   "products": [
     {
@@ -423,25 +423,6 @@
     },
     {
       "id": "aldi-2026-10-26-17",
-      "name": "Znicz szklany dekorowany (Luks)",
-      "category": "Promocje z gazetki",
-      "storeId": "aldi",
-      "store": "ALDI",
-      "price": 11.99,
-      "regularPrice": null,
-      "package": "1 szt.",
-      "unit": "1 szt.",
-      "promotion": false,
-      "conditions": "Cena: 11,99 zł Opakowanie: 1 szt.",
-      "validFrom": "2026-10-26",
-      "validTo": "2026-10-31",
-      "leafletId": "aldi-2026-10-26-2026-10-31",
-      "page": 1,
-      "source": "mojagazetka",
-      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/aldi/aldi-26-10-26-31-10-26-nvnou/1"
-    },
-    {
-      "id": "aldi-2026-10-26-18",
       "name": "Woda mineralna (Muszynianka)",
       "category": "Promocje z gazetki",
       "storeId": "aldi",
