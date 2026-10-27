@@ -1,24 +1,29 @@
 {
   "schemaVersion": 5,
-  "generatedAt": "2026-10-26T22:41:14.039930+00:00",
+  "generatedAt": "2026-10-27T05:09:03.813550+00:00",
   "leaflets": [
     {
-      "id": "netto-2026-10-26-2026-10-31",
+      "id": "netto-2026-10-22-2026-10-28",
       "storeId": "netto",
       "store": "Netto",
       "title": "Gazetka spożywcza",
-      "from": "2026-10-26",
-      "to": "2026-10-31",
+      "from": "2026-10-22",
+      "to": "2026-10-28",
       "source": "mojagazetka",
-      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-26-10-26-31-10-26-nsznj/1",
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/netto/netto-22-10-26-28-10-26-qfcnq/1",
       "externalUrl": "https://netto.pl/gazetka-netto/",
       "reader": "images",
-      "pageCount": 4,
+      "pageCount": 9,
       "pages": [
-        "https://app.moja-e-gazetka.pl/261031_261026_netto_nsznj/image01.webp",
-        "https://app.moja-e-gazetka.pl/261031_261026_netto_nsznj/image02.webp",
-        "https://app.moja-e-gazetka.pl/261031_261026_netto_nsznj/image03.webp",
-        "https://app.moja-e-gazetka.pl/261031_261026_netto_nsznj/image04.webp"
+        "https://app.moja-e-gazetka.pl/261028_261022_netto_qfcnq/image01.webp",
+        "https://app.moja-e-gazetka.pl/261028_261022_netto_qfcnq/image02.webp",
+        "https://app.moja-e-gazetka.pl/261028_261022_netto_qfcnq/image03.webp",
+        "https://app.moja-e-gazetka.pl/261028_261022_netto_qfcnq/image04.webp",
+        "https://app.moja-e-gazetka.pl/261028_261022_netto_qfcnq/image05.webp",
+        "https://app.moja-e-gazetka.pl/261028_261022_netto_qfcnq/image06.webp",
+        "https://app.moja-e-gazetka.pl/261028_261022_netto_qfcnq/image07.webp",
+        "https://app.moja-e-gazetka.pl/261028_261022_netto_qfcnq/image08.webp",
+        "https://app.moja-e-gazetka.pl/261028_261022_netto_qfcnq/image09.webp"
       ]
     },
     {
