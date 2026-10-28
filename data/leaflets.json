@@ -1,6 +1,6 @@
 {
   "schemaVersion": 5,
-  "generatedAt": "2026-10-27T22:15:37.615312+00:00",
+  "generatedAt": "2026-10-28T05:44:37.572339+00:00",
   "leaflets": [
     {
       "id": "netto-2026-10-22-2026-10-28",
@@ -27,38 +27,22 @@
       ]
     },
     {
-      "id": "aldi-2026-10-26-2026-10-31",
+      "id": "aldi-2026-10-28-2026-10-28",
       "storeId": "aldi",
       "store": "ALDI",
       "title": "Wybieram ALDI",
-      "from": "2026-10-26",
-      "to": "2026-10-31",
+      "from": "2026-10-28",
+      "to": "2026-10-28",
       "source": "mojagazetka",
-      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/aldi/aldi-26-10-26-31-10-26-bebag/16",
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/aldi/aldi-28-10-26-28-10-26-fgmkt/2",
       "externalUrl": "https://www.aldi.pl/informacje-dla-klienta/nasze-gazetki.html",
       "reader": "images",
-      "pageCount": 20,
+      "pageCount": 4,
       "pages": [
-        "https://app.moja-e-gazetka.pl/261031_261026_aldi_bebag/image01.webp",
-        "https://app.moja-e-gazetka.pl/261031_261026_aldi_bebag/image02.webp",
-        "https://app.moja-e-gazetka.pl/261031_261026_aldi_bebag/image03.webp",
-        "https://app.moja-e-gazetka.pl/261031_261026_aldi_bebag/image04.webp",
-        "https://app.moja-e-gazetka.pl/261031_261026_aldi_bebag/image05.webp",
-        "https://app.moja-e-gazetka.pl/261031_261026_aldi_bebag/image06.webp",
-        "https://app.moja-e-gazetka.pl/261031_261026_aldi_bebag/image07.webp",
-        "https://app.moja-e-gazetka.pl/261031_261026_aldi_bebag/image08.webp",
-        "https://app.moja-e-gazetka.pl/261031_261026_aldi_bebag/image09.webp",
-        "https://app.moja-e-gazetka.pl/261031_261026_aldi_bebag/image10.webp",
-        "https://app.moja-e-gazetka.pl/261031_261026_aldi_bebag/image11.webp",
-        "https://app.moja-e-gazetka.pl/261031_261026_aldi_bebag/image12.webp",
-        "https://app.moja-e-gazetka.pl/261031_261026_aldi_bebag/image13.webp",
-        "https://app.moja-e-gazetka.pl/261031_261026_aldi_bebag/image14.webp",
-        "https://app.moja-e-gazetka.pl/261031_261026_aldi_bebag/image15.webp",
-        "https://app.moja-e-gazetka.pl/261031_261026_aldi_bebag/image16.webp",
-        "https://app.moja-e-gazetka.pl/261031_261026_aldi_bebag/image17.webp",
-        "https://app.moja-e-gazetka.pl/261031_261026_aldi_bebag/image18.webp",
-        "https://app.moja-e-gazetka.pl/261031_261026_aldi_bebag/image19.webp",
-        "https://app.moja-e-gazetka.pl/261031_261026_aldi_bebag/image20.webp"
+        "https://app.moja-e-gazetka.pl/261028_261028_aldi_fgmkt/image01.webp",
+        "https://app.moja-e-gazetka.pl/261028_261028_aldi_fgmkt/image02.webp",
+        "https://app.moja-e-gazetka.pl/261028_261028_aldi_fgmkt/image03.webp",
+        "https://app.moja-e-gazetka.pl/261028_261028_aldi_fgmkt/image04.webp"
       ]
     },
     {
