@@ -1,6 +1,6 @@
 {
   "schemaVersion": 5,
-  "generatedAt": "2026-11-10T07:21:06.633835+00:00",
+  "generatedAt": "2026-11-10T19:45:41.303302+00:00",
   "leaflets": [
     {
       "id": "netto-2026-11-05-2026-11-10",
@@ -27,27 +27,22 @@
       ]
     },
     {
-      "id": "aldi-2026-11-09-2026-11-14",
+      "id": "aldi-2026-11-10-2026-11-10",
       "storeId": "aldi",
       "store": "ALDI",
       "title": "Wybieram ALDI",
-      "from": "2026-11-09",
-      "to": "2026-11-14",
+      "from": "2026-11-10",
+      "to": "2026-11-10",
       "source": "mojagazetka",
-      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/aldi/aldi-09-11-26-14-11-26-cwndz/6",
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/aldi/aldi-10-11-26-10-11-26-grfbu/1",
       "externalUrl": "https://www.aldi.pl/informacje-dla-klienta/nasze-gazetki.html",
       "reader": "images",
-      "pageCount": 9,
+      "pageCount": 4,
       "pages": [
-        "https://app.moja-e-gazetka.pl/261114_261109_aldi_cwndz/image01.webp",
-        "https://app.moja-e-gazetka.pl/261114_261109_aldi_cwndz/image02.webp",
-        "https://app.moja-e-gazetka.pl/261114_261109_aldi_cwndz/image03.webp",
-        "https://app.moja-e-gazetka.pl/261114_261109_aldi_cwndz/image04.webp",
-        "https://app.moja-e-gazetka.pl/261114_261109_aldi_cwndz/image05.webp",
-        "https://app.moja-e-gazetka.pl/261114_261109_aldi_cwndz/image06.webp",
-        "https://app.moja-e-gazetka.pl/261114_261109_aldi_cwndz/image07.webp",
-        "https://app.moja-e-gazetka.pl/261114_261109_aldi_cwndz/image08.webp",
-        "https://app.moja-e-gazetka.pl/261114_261109_aldi_cwndz/image09.webp"
+        "https://app.moja-e-gazetka.pl/261110_261110_aldi_grfbu/image01.webp",
+        "https://app.moja-e-gazetka.pl/261110_261110_aldi_grfbu/image02.webp",
+        "https://app.moja-e-gazetka.pl/261110_261110_aldi_grfbu/image03.webp",
+        "https://app.moja-e-gazetka.pl/261110_261110_aldi_grfbu/image04.webp"
       ]
     },
     {
