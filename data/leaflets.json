@@ -1,6 +1,6 @@
 {
   "schemaVersion": 5,
-  "generatedAt": "2026-11-13T19:44:28.923476+00:00",
+  "generatedAt": "2026-11-14T06:26:08.645734+00:00",
   "leaflets": [
     {
       "id": "netto-2026-11-12-2026-11-14",
@@ -58,7 +58,7 @@
       "from": "2026-11-12",
       "to": "2026-11-14",
       "source": "mojagazetka",
-      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/aldi/aldi-12-11-26-14-11-26-uofpl/2",
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/aldi/aldi-12-11-26-14-11-26-uofpl/1",
       "externalUrl": "https://www.aldi.pl/informacje-dla-klienta/nasze-gazetki.html",
       "reader": "images",
       "pageCount": 13,
