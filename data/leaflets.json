@@ -1,6 +1,6 @@
 {
   "schemaVersion": 5,
-  "generatedAt": "2026-11-17T07:57:20.837731+00:00",
+  "generatedAt": "2026-11-18T07:31:16.531798+00:00",
   "leaflets": [
     {
       "id": "netto-2026-11-16-2026-11-21",
@@ -65,33 +65,22 @@
       ]
     },
     {
-      "id": "aldi-2026-11-16-2099-11-16",
+      "id": "aldi-2026-11-18-2026-11-18",
       "storeId": "aldi",
       "store": "ALDI",
       "title": "Wybieram ALDI",
-      "from": "2026-11-16",
-      "to": "2099-11-16",
+      "from": "2026-11-18",
+      "to": "2026-11-18",
       "source": "mojagazetka",
-      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/aldi/aldi-16-11-26-16-11-99-pumkv/14",
+      "sourcePage": "https://mojagazetka.com/gazetki-promocyjne/aldi/aldi-18-11-26-18-11-26-kvlry/1",
       "externalUrl": "https://www.aldi.pl/informacje-dla-klienta/nasze-gazetki.html",
       "reader": "images",
-      "pageCount": 15,
+      "pageCount": 4,
       "pages": [
-        "https://app.moja-e-gazetka.pl/991116_261116_aldi_pumkv/image01.webp",
-        "https://app.moja-e-gazetka.pl/991116_261116_aldi_pumkv/image02.webp",
-        "https://app.moja-e-gazetka.pl/991116_261116_aldi_pumkv/image03.webp",
-        "https://app.moja-e-gazetka.pl/991116_261116_aldi_pumkv/image04.webp",
-        "https://app.moja-e-gazetka.pl/991116_261116_aldi_pumkv/image05.webp",
-        "https://app.moja-e-gazetka.pl/991116_261116_aldi_pumkv/image06.webp",
-        "https://app.moja-e-gazetka.pl/991116_261116_aldi_pumkv/image07.webp",
-        "https://app.moja-e-gazetka.pl/991116_261116_aldi_pumkv/image08.webp",
-        "https://app.moja-e-gazetka.pl/991116_261116_aldi_pumkv/image09.webp",
-        "https://app.moja-e-gazetka.pl/991116_261116_aldi_pumkv/image10.webp",
-        "https://app.moja-e-gazetka.pl/991116_261116_aldi_pumkv/image11.webp",
-        "https://app.moja-e-gazetka.pl/991116_261116_aldi_pumkv/image12.webp",
-        "https://app.moja-e-gazetka.pl/991116_261116_aldi_pumkv/image13.webp",
-        "https://app.moja-e-gazetka.pl/991116_261116_aldi_pumkv/image14.webp",
-        "https://app.moja-e-gazetka.pl/991116_261116_aldi_pumkv/image15.webp"
+        "https://app.moja-e-gazetka.pl/261118_261118_aldi_kvlry/image01.webp",
+        "https://app.moja-e-gazetka.pl/261118_261118_aldi_kvlry/image02.webp",
+        "https://app.moja-e-gazetka.pl/261118_261118_aldi_kvlry/image03.webp",
+        "https://app.moja-e-gazetka.pl/261118_261118_aldi_kvlry/image04.webp"
       ]
     },
     {
